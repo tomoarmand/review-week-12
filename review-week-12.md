@@ -53,7 +53,7 @@ export default TableOfContents
 
 # Question 7
 
-import { Profile } from './src/components/Profile
+import { Profile } from './src/components/Profile'
 
 # Question 8
 
@@ -80,15 +80,13 @@ const Summary = () => {
 
 # Question 10
 
-export Greeting(props) {
+export function Greeting(props) {
     return (
         <p>Hello {props.name}</p>
     )
 }
 
 # Question 11
-
-import { Greeting } from './src/components/Greeting'
 
 Greeting(props) {
     return (
@@ -99,6 +97,8 @@ Greeting(props) {
 }
 
 ---------------------------------------------------
+
+import { Greeting } from './src/components/Greeting'
 
 function App() {
   return (
